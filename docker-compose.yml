@@ -9,24 +9,24 @@ services:
       EULA: "TRUE"
       VERSION: 1.18.2
       TYPE: PAPER
-      OVERRIDE_SERVER_PROPERTIES: true
-      WORLD: https://download2332.mediafire.com/smot66fylzog/tpvsn66bu72book/Skyblock+4.10.zip
-      MOTD: "Skyblock Minecraft Server"
-      ENFORCE_WHITELIST: true
+      OVERRIDE_SERVER_PROPERTIES: "true"
+      WORLD: https://hielkemaps.com/downloads/Parkour%20Town.zip
+      MOTD: "Parkour Minecraft Server"
+      ENFORCE_WHITELIST: "true"
       WHITELIST: chillerkiller09
       OPS: chillerkiller09
       ICON: https://media1.tenor.com/images/d5a2e3786faa13b1fdb8b27c28d496ee/tenor.gif?itemid=14327746
-      OVERRIDE_ICON: true
-      GENERATE_STRUCTURES: true
+      OVERRIDE_ICON: "true"
+      GENERATE_STRUCTURES: "true"
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 15
       MEMORY: 12G
       STOP_SERVER_ANNOUNCE_DELAY: 30
-      ENABLE_ROLLING_LOGS: true
+      ENABLE_ROLLING_LOGS: "true"
       TZ: Europe/Berlin
-      USE_AIKAR_FLAGS: true
-    tty: true
-    stdin_open: true
+      USE_AIKAR_FLAGS: "true"
+    tty: "true"
+    stdin_open: "true"
     restart: unless-stopped
     volumes:
       # attach a directory relative to the directory containing this compose file

@@ -7,7 +7,7 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
-      VERSION: 1.18.2
+      VERSION: 1.19.3
       TYPE: PAPER
       OVERRIDE_SERVER_PROPERTIES: "true"
       WORLD: https://hielkemaps.com/downloads/Parkour%20Town.zip

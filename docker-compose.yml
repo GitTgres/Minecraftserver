@@ -20,7 +20,7 @@ services:
       GENERATE_STRUCTURES: "true"
       SPAWN_PROTECTION: 0
       VIEW_DISTANCE: 15
-      MEMORY: 12G
+      MEMORY: 4G
       STOP_SERVER_ANNOUNCE_DELAY: 30
       ENABLE_ROLLING_LOGS: "true"
       TZ: Europe/Berlin

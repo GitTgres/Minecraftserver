@@ -24,7 +24,7 @@ services:
       STOP_SERVER_ANNOUNCE_DELAY: 30
       ENABLE_ROLLING_LOGS: "true"
       TZ: Europe/Berlin
-      USE_AIKAR_FLAGS: "true"
+      #USE_AIKAR_FLAGS: "true"
     tty: "true"
     stdin_open: "true"
     restart: unless-stopped
